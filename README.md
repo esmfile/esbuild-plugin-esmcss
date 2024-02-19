@@ -1,6 +1,6 @@
 # esbuild-plugin-esmcss
 
-esbuild plugin to build *.css.ts/*.css.js files as css assets
+esbuild plugin to build *.css.ts/*.css.js modules as css assets.
 
 ## install
 
@@ -30,7 +30,20 @@ Component file
 [//]: @formatter:off
 ```ts
 import './component.css.js'
-// ... Component definition
+export function html_() {
+  return `
+<!DOCTYPE html>
+<html>
+  <head>
+  link_({ rel: 'stylesheet', type: 'text/css', href })
+    <link rel="stylesheet" type="text/css" href="/path/to/cssBundle.css">
+  </head>
+  <body>
+    <div class="my_component">Hello!</div>
+  </body>
+</html>
+  `.trim()
+}
 ```
 [//]: @formatter:on
 
