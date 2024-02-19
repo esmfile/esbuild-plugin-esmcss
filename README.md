@@ -1,6 +1,6 @@
 # esbuild-plugin-esmcss
 
-esbuild plugin to build *.css.ts/*.css.js modules as css assets.
+Build *.css.ts/*.css.js modules as css assets.
 
 ## install
 

@@ -1,7 +1,7 @@
 {
 	"name": "esbuild-plugin-esmcss",
 	"version": "0.1.1",
-	"description": "esbuild plugin to build *.css.ts/*.css.js files as css assets",
+	"description": "Build *.css.ts/*.css.js modules as css assets.",
 	"keywords": [
 		"css",
 		"esm",
