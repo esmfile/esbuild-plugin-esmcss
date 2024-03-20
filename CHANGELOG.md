@@ -1,5 +1,13 @@
 # esbuild-plugin-esmcss
 
+## 0.1.4
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - esmcss@0.2.5
+
 ## 0.1.3
 
 ### Patch Changes
