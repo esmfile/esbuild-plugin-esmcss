@@ -1,5 +1,13 @@
 # esbuild-plugin-esmcss
 
+## 0.1.5
+
+### Patch Changes
+
+- esbuild: ^0.20.2 -> ^0.21.0
+- Updated dependencies
+  - esmcss@0.2.6
+
 ## 0.1.4
 
 ### Patch Changes
