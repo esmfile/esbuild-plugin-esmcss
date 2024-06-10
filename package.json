@@ -1,6 +1,6 @@
 {
 	"name": "esbuild-plugin-esmcss",
-	"version": "0.1.9",
+	"version": "0.1.10",
 	"description": "Build *.css.ts/*.css.js modules as css assets.",
 	"keywords": [
 		"css",
@@ -43,13 +43,13 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"esbuild": "^0.21.4",
-		"esmcss": "^0.2.10"
+		"esbuild": "^0.21.5",
+		"esmcss": "^0.2.11"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
 		"check-dts": "^0.8.0",
-		"tsx": "^4.14.1",
+		"tsx": "^4.15.1",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
