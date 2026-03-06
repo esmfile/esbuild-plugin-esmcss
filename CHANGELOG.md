@@ -1,5 +1,13 @@
 # esbuild-plugin-esmcss
 
+## 0.1.14
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - esmcss@0.2.15
+
 ## 0.1.13
 
 ### Patch Changes
